@@ -2,9 +2,9 @@ version = 0.1
 [default]
 [default.deploy]
 [default.deploy.parameters]
-stack_name = "HelloWorld2021"
-s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1odwjh0m3msn1"
-s3_prefix = "HelloWorld2021"
+stack_name = "hellostack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1ca8z1hnjrhrg"
+s3_prefix = "hellostack"
 region = "us-east-1"
 confirm_changeset = true
 capabilities = "CAPABILITY_IAM"
